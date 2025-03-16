@@ -1,0 +1,9 @@
+body { font-family: sans-serif }
+
+#tabelle { background-color: aqua }
+
+#rechts { }
+#mitte { text-align: center }
+#links { }
+
+.eingabe { height: 26em; width: 34em }

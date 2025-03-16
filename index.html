@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <title>Römische Verschlüsselung</title>
+  <link rel="stylesheet" type="text/css" href="layout.css">
+  <script type="text/javascript" src="programm.js"></script>
+  </head>
+  <body>
+    <header><h1>Römische Verschlüsselung (ROT13)</h1></header>
+
+    <main><table id="tabelle"><tbody><tr>
+    <td id="links">Klartext<br/>
+    <textarea id="klartext" class="eingabe"></textarea></td>
+    <td id="mitte"><button onclick="verarbeiten(1)">Verschschlüsseln =&gt;</button><br/><br/>
+    <button onclick="verarbeiten(2)">&lt;= Entschlüsseln</button></td>
+    <td id="rechts">Verschlüsselt<br/>
+    <textarea id="verschluesselt" class="eingabe"></textarea></td>
+    </tr></tbody></table></main>
+
+    <footer></footer>
+  </body>
+</html>
